@@ -1,0 +1,48 @@
+{
+  "name": "my-js-blockchain",
+  "version": "1.0.0",
+  "description": "Fullstack blockchain that works with Express for the backend and React for the frontend. Based on the Ûdemy course “Build a Blockchain & Cryptocurrency | Full-Stack Edition | Udemy”",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch src/**/*.ts --exec ts-node src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rllullt/my-js-blockchain.git"
+  },
+  "keywords": [
+    "blockchain",
+    "fullstack",
+    "backend",
+    "frontend",
+    "express",
+    "react",
+    "node",
+    "web3",
+    "decentralization"
+  ],
+  "author": "Rodrigo Llull T.",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/rllullt/my-js-blockchain/issues"
+  },
+  "homepage": "https://github.com/rllullt/my-js-blockchain#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.14",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.0.4",
+    "nodemon": "^3.1.10",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0",
+    "supertest": "^7.1.3"
+  }
+}
