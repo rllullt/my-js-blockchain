@@ -17,6 +17,17 @@ In bitcoin, the block hash is the hash of the block header (~200 bytes of data).
 
 ## About some libraries
 
+### TS-Node
+
+Compiles and executes a TypeScript file in one step with
+
+```bash
+ts-node file_name.ts
+```
+
+This method is used for quick execution and development as it streamlines the process.
+
+
 ### Nodemon
 
 `nodemon` lets to automatically restart the server when the TypeScript code changes.
